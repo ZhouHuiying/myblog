@@ -9,5 +9,10 @@ export default new router({
             path: '/',
             component: () =>import('../src/components/test.vue')
         },
+        {
+            path: '/content',
+            name: 'content',
+            component: () =>import('../src/components/content.vue')
+        },
     ]
 })
