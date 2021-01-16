@@ -34,10 +34,8 @@ export default {
   position: absolute;
   top: 95px;
   width:90%;
-  height: calc(100% - 95px);
-  background-color: #e8efeb;
-  // margin: 0 auto;
-  
+  min-height:850px;
+  background-color: #e8efeb;  
 }
 }
 

@@ -15,9 +15,19 @@ export default new router({
             component: () =>import('../src/views/main/index.vue'),
             children: [
                 {
-                    path: '/article1',
-                    name: 'article1',
-                    component: () =>import('../src/views/page/article1.vue'),
+                    path: '/techArticle1',
+                    name: 'techArticle1',
+                    component: () =>import('../src/views/page/tech/techArticle1.vue'),
+                },
+                {
+                    path: '/techArticle2',
+                    name: 'techArticle2',
+                    component: () =>import('../src/views/page/tech/techArticle2.vue'),
+                },
+                {
+                    path: '/lifeArticle1',
+                    name: 'lifeArticle1',
+                    component: () =>import('../src/views/page/life/lifeArticle1.vue'),
                 },
                 {
                     path: '/list1',

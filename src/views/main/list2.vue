@@ -1,6 +1,6 @@
 <template>
   <div class="listContainer">
-    <div v-for="item of tableData" :key="item.id" class="item " >
+    <div v-for="item of tableData" :key="item.id" class="item " @click="jumpToDetail(item.name)">
       <div class="title flex align-center">{{item.title}}</div>
       <div class="intro">{{item.intro}}</div>
       <div class="date">{{item.date}}</div>
@@ -16,13 +16,17 @@ export default {
     const tableData = ref([
       {
         id: 1,
+        name:'lifeArticle1',
         title: '苏州之旅~',
         intro: '元旦去苏州玩啦！',
         date: '2020-01-16'
       }
     ]);
+    function jumpToDetail(name){
+      this.$router.push(name)
+    }
     return{
-      tableData,
+      tableData,jumpToDetail
     }
   }
 }

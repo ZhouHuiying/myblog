@@ -30,7 +30,7 @@ export default {
       {
         id: 1,
         title: 'title1',
-        intro: 'intro1'
+        intro: 'intro1',
       }
     ]);
     return{
