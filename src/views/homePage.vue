@@ -15,9 +15,7 @@ import { onMounted,} from '@vue/composition-api';
 export default {
   setup(){
     function jumpTo(){
-      // router.push('content')
-      this.$router.push({name: 'content'});
-      console.log(1)
+      this.$router.push({name: 'article1'});
     }
     onMounted(()=>{
       console.log(11); 
@@ -63,8 +61,8 @@ export default {
     bottom:20px;
     right:20px;
     img{
-width:450px;
-    height:290px;
+      width:200px;
+      height:200px;
     }
     
   }

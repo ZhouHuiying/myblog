@@ -6,6 +6,9 @@ import VueCompositionApi from '@vue/composition-api';
 
 Vue.use(VueCompositionApi);
 
+import './scss/common.scss';
+
+
 Vue.config.productionTip = false
 
 new Vue({
