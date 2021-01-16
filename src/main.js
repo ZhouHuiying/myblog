@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './App.vue';
 import router from '../router/index'
 import './scss/common.scss';
 import VueCompositionApi from '@vue/composition-api';
@@ -8,6 +8,9 @@ Vue.use(VueCompositionApi);
 
 import './scss/common.scss';
 
+// import  {genRouter}  from 'web-toolkit/src/case-main/router';
+
+// export const router = genRouter(routes);
 
 Vue.config.productionTip = false
 

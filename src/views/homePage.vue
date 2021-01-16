@@ -18,7 +18,6 @@ export default {
       this.$router.push({name: 'article1'});
     }
     onMounted(()=>{
-      console.log(11); 
     })
     
     return{

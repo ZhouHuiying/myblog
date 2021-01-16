@@ -1,17 +1,26 @@
 <template>
-  <div>
-    <Header/>
-    <div class="content">
-      <router-view/>
+  <div class="all">
+    <div class="header">
+      <Header />
     </div>
+    <div class="menu">
+      <Menu/>
+    </div>
+    <div class="flex center">
+      <div class="content" >
+        <router-view/>
+      </div>
+    </div>
+  
     
   </div>
 </template>
 
 <script>
 import Header from "./header.vue";
+import Menu from './menu.vue';
 export default {
-  components: {Header,},
+  components: {Header, Menu,},
   setup(){
 
   }
@@ -19,10 +28,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.all{
+  width:100%;
 .content{
   position: absolute;
-  top: 60px;
-  height: calc(100% - 60px);
-  width:100%;
+  top: 95px;
+  width:90%;
+  height: calc(100% - 95px);
+  background-color: #e8efeb;
+  // margin: 0 auto;
+  
 }
+}
+
 </style>

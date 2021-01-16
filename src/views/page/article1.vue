@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-
+  <div class="container1">
+    sssssssssssssssssssss
   </div>
 </template>
 
@@ -13,7 +13,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container{
-  height:1000px;
-}
+
 </style>
