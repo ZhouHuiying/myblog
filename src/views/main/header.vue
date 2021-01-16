@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+    <i class="icon iconfont icon-zhuye"></i>
     小周的博客呀！
   </div>
 </template>

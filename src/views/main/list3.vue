@@ -1,8 +1,10 @@
 <template>
   <div class="listContainer">
-    <div v-for="item of tableData" :key="item.id" class="item " >
-      <div class="title flex align-center">{{item.title}}</div>
-      <div class="intro">{{item.intro}}</div>
+    <div class="item" >
+      <div class="title flex align-center">小周的github地址：</div>
+      <div class="intro">
+        <a href="https://github.com/ZhouHuiying">https://github.com/ZhouHuiying</a>
+      </div>
     </div>
   </div>
 </template>
@@ -30,14 +32,15 @@ export default {
 .listContainer{
   width: 100%;
   .item{
-    height: 130px;
     width: 90%;
     margin: 0 auto;
     border: solid 1px #cccccc;
     margin-top: 15px;
+    padding: 8px;
     .title{
       height: 30%;
       margin-left: 20px;
+      padding:8px;
     }
     .intro{
       height: 30%;

@@ -1,8 +1,14 @@
 <template>
   <div class="menu flex between">
-    <div :class="active==1 ? 'active' : 'default' " @click="jump(1)">技 术</div>
-    <div :class="active==2 ? 'active' : 'default'" @click="jump(2)">生 活</div>
-    <div :class="active==3 ? 'active' : 'default'" @click="jump(3)">更 多</div>
+    <div :class="active==1 ? 'active' : 'default' " @click="jump(1)">
+      <i class="icon iconfont icon-jishu" style="color:#55b3b1;font-weight:600"></i>
+      技 术</div>
+    <div :class="active==2 ? 'active' : 'default'" @click="jump(2)">
+      <i class="icon iconfont icon-nightlife_winter" style="color: #ee9595;font-weight:600"></i>
+      生 活</div>
+    <div :class="active==3 ? 'active' : 'default'" @click="jump(3)">
+      <i class="icon iconfont icon-gengduo" style="color: #70af85;font-weight:600"></i>
+      更 多</div>
   </div>
 </template>
 

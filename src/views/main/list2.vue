@@ -3,6 +3,7 @@
     <div v-for="item of tableData" :key="item.id" class="item " >
       <div class="title flex align-center">{{item.title}}</div>
       <div class="intro">{{item.intro}}</div>
+      <div class="date">{{item.date}}</div>
     </div>
   </div>
 </template>
@@ -15,8 +16,9 @@ export default {
     const tableData = ref([
       {
         id: 1,
-        title: 'title1',
-        intro: 'intro1'
+        title: '苏州之旅~',
+        intro: '元旦去苏州玩啦！',
+        date: '2020-01-16'
       }
     ]);
     return{
@@ -36,11 +38,18 @@ export default {
     border: solid 1px #cccccc;
     margin-top: 15px;
     .title{
-      height: 30%;
+      height: 40px;
       margin-left: 20px;
+      font-size:20px;
+      font-weight:550;
     }
     .intro{
-      height: 30%;
+      height:60px;
+      margin-left: 20px;
+    }
+    .date{
+      height:30px;
+      line-height: 30px;
       margin-left: 20px;
     }
   }
