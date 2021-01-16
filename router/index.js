@@ -30,9 +30,9 @@ export default new router({
                     component: () =>import('../src/views/main/list2.vue'),
                 },
                 {
-                    path: '/list3',
-                    name: 'list3',
-                    component: () =>import('../src/views/main/list3.vue'),
+                    path: '/more',
+                    name: 'more',
+                    component: () =>import('../src/views/main/more.vue'),
                 },
             ]
         },

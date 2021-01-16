@@ -27,7 +27,7 @@ export default {
         this.$router.push({name: 'list2'});
       }else{
         active.value = 3;
-        this.$router.push({name: 'list3'});
+        this.$router.push({name: 'more'});
       }
     }
     return {
@@ -43,12 +43,13 @@ export default {
   top: 50px;
   width: 100%;
   .active {
-    color:white;
+    color:black;
     height:35px;
     line-height:35px;
     width:130px;
-    background-color: #e9b0df;
+    background-color: #e7d9ea;
     font-size:18px;
+    font-weight: 550;
     text-align: center;
   }
   .default{
@@ -56,7 +57,7 @@ export default {
     height:35px;
     line-height:35px;
     width:130px;
-    background-color: #e9b0df;
+    background-color: #e7d9ea;
     font-size:18px;
     text-align: center;
   }
