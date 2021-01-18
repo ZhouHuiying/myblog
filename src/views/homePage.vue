@@ -15,7 +15,7 @@ import { onMounted,} from '@vue/composition-api';
 export default {
   setup(){
     function jumpTo(){
-      this.$router.push({name: 'article1'});
+      this.$router.push({name: 'techArticle1'});
     }
     onMounted(()=>{
     })

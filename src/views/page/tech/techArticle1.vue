@@ -16,8 +16,8 @@
           let left = 1; 
           let right = 1;
           let sum = 0;
-          while(left <= target/2){
-              if(sum < target){
+          while(left &lt;= target/2){
+              if(sum &lt; target){
                   sum += right;
                   right++;
               }else if(sum > target){
@@ -25,7 +25,7 @@
                   left++;
               }else{
                   let arr = [];
-                  for(let i =left;i<right;i++){
+                  for(let i =left;i&lt;right;i++){
                       arr.push(i);
                   }
                   list.push(arr);
@@ -101,9 +101,10 @@ export default {
   .date{
     height:35px;
     line-height:35px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding:8px;
+    color: gray;
   }
   .content{
     width:90%;

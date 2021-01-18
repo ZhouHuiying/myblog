@@ -1,12 +1,12 @@
 <template>
-  <div class="menu flex between">
-    <div :class="active==1 ? 'active' : 'default' " @click="jump(1)">
+  <div class="menu flex around">
+    <div :class="active==1 ? 'btn-light' : 'btn-dark' " @click="jump(1)" class="btn">
       <i class="icon iconfont icon-jishu" style="color:#55b3b1;font-weight:600"></i>
       技 术</div>
-    <div :class="active==2 ? 'active' : 'default'" @click="jump(2)">
+    <div :class="active==2 ? 'btn-light' : 'btn-dark'" @click="jump(2)" class="btn">
       <i class="icon iconfont icon-nightlife_winter" style="color: #ee9595;font-weight:600"></i>
       生 活</div>
-    <div :class="active==3 ? 'active' : 'default'" @click="jump(3)">
+    <div :class="active==3 ? 'btn-light' : 'btn-dark'" @click="jump(3)" class="btn">
       <i class="icon iconfont icon-gengduo" style="color: #70af85;font-weight:600"></i>
       更 多</div>
   </div>
@@ -39,27 +39,26 @@ export default {
 
 <style scoped lang="scss">
 .menu{
-  position: absolute;
-  top: 50px;
+  height: 50px;
   width: 100%;
-  .active {
-    color:black;
+  margin: 12px 0;
+  .btn {
     height:35px;
     line-height:35px;
     width:130px;
-    background-color: #e7d9ea;
-    font-size:18px;
-    font-weight: 550;
-    text-align: center;
-  }
-  .default{
-    color:gray;
-    height:35px;
-    line-height:35px;
-    width:130px;
-    background-color: #e7d9ea;
     font-size:18px;
     text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    &-light {
+      color:black;
+      background-color: #e7d9ea;
+      font-weight: 550;
+    }
+    &-dark {
+      color:gray;
+      background-color: #e7d9ea;
+    }
   }
 }
 </style>

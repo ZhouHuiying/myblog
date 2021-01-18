@@ -15,8 +15,6 @@ export default {
 .header{
   width: 100%;
   height: 50px;
-  position: absolute;
-  top: 0px;
   line-height: 50px;
   font-size: 18px;
   text-align:center;
