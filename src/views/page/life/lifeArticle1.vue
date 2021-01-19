@@ -1,11 +1,11 @@
 <template>
   <div class="container">
-    <div class="title">
+    <div class="article-title">
       <i class="icon iconfont icon-fanhui" @click="()=>this.$router.back()"></i>
       苏州之旅~
     </div>
-    <div class="date">2021-01-16</div>
-    <div class="content">
+    <div class="article-date">2021-01-16</div>
+    <div class="article-content">
       <p>
         元旦啦，终于有时间粗去玩啦。早早的定了去苏州的高铁票和酒店！2021年1月1日准时出发！
       </p>
@@ -51,38 +51,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-p{
-  padding:6px;
-}
-.container{
-  .title{
-    height:35px;
-    line-height:35px;
-    font-size: 20px;
-    text-align: center;
-    padding:8px;
-    position: relative;
-    i{
-      position: absolute;
-      left: 16px;
-      font-size:20px;
-      cursor: pointer;
-    }
-  }
-  .date{
-    height:35px;
-    line-height:35px;
-    font-size: 14px;
-    text-align: center;
-    padding:8px;
-    color: gray;
-  }
-  .content{
-    width:90%;
-    margin: 0 auto;
-    p,pre{
-      margin-top:12px;
-    }
-  }
-}
 </style>

@@ -7,6 +7,8 @@ import VueCompositionApi from '@vue/composition-api';
 Vue.use(VueCompositionApi);
 
 import './scss/common.scss';
+import './scss/theme.scss';
+import './scss/reset.css';
 
 // import  {genRouter}  from 'web-toolkit/src/case-main/router';
 
@@ -16,5 +18,5 @@ Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: h => h(App),
+  render: h => h(App), 
 }).$mount('#app')

@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <div class="title">
+    <div class="article-title title">
       <i class="icon iconfont icon-fanhui" @click="()=>this.$router.back()"></i>
       滑动窗口-和为s的连续正数序列</div>
-    <div class="date">2021-01-16</div>
-    <div class="content">
+    <div class="article-date">2021-01-16</div>
+    <div class="article-content">
       <p>
         题目：输入一个正整数 target ，输出所有和为 target 的连续正整数序列（至少含有两个数）。
         序列内的数字由小到大排列，不同序列按照首个数字从小到大排列。
@@ -83,35 +83,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container{
-  .title{
-    height:35px;
-    line-height:35px;
-    font-size: 20px;
-    text-align: center;
-    padding:8px;
-    position: relative;
-    i{
-      position: absolute;
-      left: 16px;
-      font-size:20px;
-      cursor: pointer;
-    }
-  }
-  .date{
-    height:35px;
-    line-height:35px;
-    font-size: 14px;
-    text-align: center;
-    padding:8px;
-    color: gray;
-  }
-  .content{
-    width:90%;
-    margin: 0 auto;
-    p,pre{
-      margin-top:12px;
-    }
-  }
-}
 </style>

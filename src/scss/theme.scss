@@ -1,0 +1,65 @@
+//文章列表的题目、介绍、日期
+.list-title{
+  position: relative;
+  display: inline-block;
+  font-size:16px;
+  font-weight: 550;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-4px;
+    width: 0;
+    height: 2px;
+    background-color: #16c79a;
+    transition: .3s all linear;
+  }
+  &:hover {
+    &::before { 
+      content: '';
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+.list-intro{
+  height: 50%;
+  font-size:15px;
+  margin-top:12px;
+  color: gray;
+}
+.list-date{
+  font-size:14px;
+  color: gray;
+  margin-top:12px;
+}
+
+//文章内容的标题、日期、内容
+.article-title{
+  position: relative;
+  font-size:16px;
+  font-weight: 550;
+  height:35px;
+  line-height:35px;
+  text-align: center;
+  i{
+    position: absolute;
+    left: 16px;
+    font-size:16px;
+    cursor: pointer;
+  }
+}
+.article-date{
+  font-size:14px;
+  color: gray;
+  margin-top:12px;
+  text-align: center;
+}
+.article-content{
+  margin-top:20px;
+  width:90%;
+    margin: 0 auto;
+    p,pre{
+      margin-top:12px;
+    }
+}
