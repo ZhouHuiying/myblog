@@ -52,12 +52,12 @@
         如示例target = 9
         第一轮：left:1, right:1
         数组[1]
-        sum:0 < target
+        sum:0 &lt; target
         增大右边界：right++
 
         第二轮：left:1, right:2
         数组[1,2]
-        sum:3 < target
+        sum:3 &lt; target
         增大右边界：right++
         ...
         第四轮：left:1, right:4

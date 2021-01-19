@@ -21,6 +21,13 @@ export default {
         intro: '滑动窗口可以看成数组中框起来的一个部分。在一些数组类题目中，我们可以用滑动窗口来观察可能的候选结果。当滑动窗口从数组的左边滑到了右边，我们就可以从所有的候选结果中找到最优的结果。',
         date:'2021-01-16'
       },
+      {
+        id: 2,
+        name:'techArticle2',
+        title: '页面内跳转',
+        intro: '页面内跳转',
+        date:'2021-01-19'
+      },
     ]);
     function jumpToDetail(name){
       this.$router.push(name)

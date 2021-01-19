@@ -20,9 +20,19 @@ export default new router({
                     component: () =>import('../src/views/page/tech/techArticle1.vue'),
                 },
                 {
+                    path: '/techArticle2',
+                    name: 'techArticle2',
+                    component: () =>import('../src/views/page/tech/techArticle2.vue'),
+                },
+                {
                     path: '/lifeArticle1',
                     name: 'lifeArticle1',
                     component: () =>import('../src/views/page/life/lifeArticle1.vue'),
+                },
+                {
+                    path: '/lifeArticle2',
+                    name: 'lifeArticle2',
+                    component: () =>import('../src/views/page/life/lifeArticle2.vue'),
                 },
                 {
                     path: '/list1',

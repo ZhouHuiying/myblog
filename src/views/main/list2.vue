@@ -20,6 +20,13 @@ export default {
         title: '苏州之旅~',
         intro: '元旦去苏州玩啦！今天抽空来记录一下~(*╹▽╹*)',
         date: '2020-01-18'
+      },
+      {
+        id: 2,
+        name:'lifeArticle2',
+        title: '2020总结~',
+        intro: '2020年已经结束啦，今天是2021年的1月19日，突发奇想想要给2020年做一个总结，那就现在开始吧！',
+        date: '2020-01-19'
       }
     ]);
     function jumpToDetail(name){
