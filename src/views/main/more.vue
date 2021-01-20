@@ -16,7 +16,7 @@
       <div class="title flex align-center">浙江工商大学 信息与电子工程学院</div>
     </div>
     <div class="item flex center">
-      <img src="../../assets/me.jpg" alt="">
+      <img v-lazy="require('../../assets/me.jpg')" alt="">
     </div>
   </div>
 </template>
