@@ -51,6 +51,9 @@ export default {
     border: solid 1px #cccccc;
     margin-top: 15px;
     border-radius: 4px;
+    .list-intro{
+      line-height: 20px;
+    }
   }
 }
 </style>

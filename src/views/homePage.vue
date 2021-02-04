@@ -27,7 +27,7 @@ export default {
 <style scoped lang="scss">
 .container{
   position: relative;
-  background-image: url('../assets/bg1.jpg');
+  background-image: url('../assets/bg2.jpg');
   height:100vh;
   background-size: 100% 100%;
   .name{

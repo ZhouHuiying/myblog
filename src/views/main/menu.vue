@@ -8,7 +8,7 @@
       生 活</div>
     <div :class="active==3 ? 'btn-light' : 'btn-dark'" @click="jump(3)" class="btn">
       <i class="icon iconfont icon-gengduo" style="color: #70af85;font-weight:600"></i>
-      更 多</div>
+      About Me</div>
   </div>
 </template>
 

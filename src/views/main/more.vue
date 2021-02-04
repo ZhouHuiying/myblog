@@ -14,6 +14,7 @@
     </div>
     <div class="item" >
       <div class="title flex align-center">浙江工商大学 信息与电子工程学院</div>
+      <div class="title flex align-center">一张超爱的照片！</div>
     </div>
     <div class="item flex center">
       <img v-lazy="require('../../assets/me.jpg')" alt="">
