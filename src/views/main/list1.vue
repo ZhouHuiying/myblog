@@ -28,6 +28,14 @@ export default {
         intro: '页面内跳转',
         date:'2021-01-19'
       },
+      {
+        id: 3,
+        name:'techArticle3',
+        title: '内容在固定高度内滚动',
+        intro: '内容在固定高度内滚动',
+        date:'2021-03-01'
+      },
+      
     ]);
     function jumpToDetail(name){
       this.$router.push(name)

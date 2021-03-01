@@ -25,6 +25,11 @@ export default new router({
                     component: () =>import('../src/views/page/tech/techArticle2.vue'),
                 },
                 {
+                    path: '/techArticle3',
+                    name: 'techArticle3',
+                    component: () =>import('../src/views/page/tech/techArticle3.vue'),
+                },
+                {
                     path: '/lifeArticle1',
                     name: 'lifeArticle1',
                     component: () =>import('../src/views/page/life/lifeArticle1.vue'),
