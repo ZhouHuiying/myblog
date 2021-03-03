@@ -35,7 +35,13 @@ export default {
         intro: '内容在固定高度内滚动',
         date:'2021-03-01'
       },
-      
+      {
+        id: 4,
+        name:'techArticle4',
+        title: '几个CSS Demo！',
+        intro: '几个CSS Demo！',
+        date:'2021-03-02'
+      },
     ]);
     function jumpToDetail(name){
       this.$router.push(name)

@@ -30,6 +30,11 @@ export default new router({
                     component: () =>import('../src/views/page/tech/techArticle3.vue'),
                 },
                 {
+                    path: '/techArticle4',
+                    name: 'techArticle4',
+                    component: () =>import('../src/views/page/tech/techArticle4.vue'),
+                },
+                {
                     path: '/lifeArticle1',
                     name: 'lifeArticle1',
                     component: () =>import('../src/views/page/life/lifeArticle1.vue'),
