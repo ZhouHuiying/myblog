@@ -11,7 +11,8 @@ Vue.use(VueLazyload)
 import './scss/common.scss';
 import './scss/theme.scss';
 import './scss/reset.css';
-
+import elementUI from 'element-ui';
+Vue.use(elementUI)
 // import  {genRouter}  from 'web-toolkit/src/case-main/router';
 
 // export const router = genRouter(routes);

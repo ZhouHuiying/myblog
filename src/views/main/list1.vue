@@ -39,8 +39,15 @@ export default {
         id: 4,
         name:'techArticle4',
         title: '几个CSS Demo！',
-        intro: '几个CSS Demo！',
+        intro: '几个小的CSS Demo~',
         date:'2021-03-02'
+      },
+      {
+        id: 5,
+        name:'techArticle5',
+        title: '生产计划甘特图',
+        intro: '通过Vue实现的一个简单的甘特图',
+        date:'2021-03-04'
       },
     ]);
     function jumpToDetail(name){
