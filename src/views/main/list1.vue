@@ -46,7 +46,7 @@ export default {
         id: 5,
         name:'techArticle5',
         title: '生产计划甘特图',
-        intro: '通过Vue实现的一个简单的甘特图',
+        intro: '通过Vue实现的一个简单的甘特图,以年为时间跨度；',
         date:'2021-03-04'
       },
     ]);

@@ -5,8 +5,13 @@
         <i class="icon iconfont icon-fanhui" @click="()=>this.$router.back()"></i>
         生产计划甘特图
       </div>
-      <div class=" flex center" style="margin-top:12px;margin-bottom:12px;">
-        通过Vue实现的一个简单的甘特图。
+      <div class=" flex center" style="margin-top:12px;margin-bottom:12px;line-height:20px;">
+        通过Vue实现的一个简单的甘特图，以年为时间跨度；
+        <br/>
+        找到了一个好用的甘特图的例子，npm install --save gantt-elastic即可安装使用。
+        <a style="margin-top:16px;" href="https://blog.csdn.net/yangxiaoman123/article/details/107855727?utm_medium=distribute.pc_relevant_download.none-task-blog-BlogCommendFromBaidu-2.nonecase&dist_request_id=&depth_1-utm_source=distribute.pc_relevant_download.none-task-blog-BlogCommendFromBaidu-2.nonecas">
+          gantt-elastic
+        </a>
       </div>
       <div class="skip-chart ">
         <div class="chart-header">
