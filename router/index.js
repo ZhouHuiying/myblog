@@ -10,6 +10,10 @@ export default new router({
             component: () =>import('../src/views/homePage.vue')
         },
         {
+            path: '/test',
+            component: () =>import('../src/views/page/test/test.vue')
+        },
+        {
             path: '/index',
             name: 'index',
             component: () =>import('../src/views/main/index.vue'),
