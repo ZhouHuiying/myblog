@@ -18,6 +18,18 @@
           <mixBlendMode></mixBlendMode>
         </div>
       </div>
+      <div class="first">
+        <div class="title">走马灯效果</div>
+        <div style="margin-top:12px;">
+          <carousel></carousel>
+        </div>
+      </div>
+      <div class="first">
+        <div class="title">滚动公告</div>
+        <div style="margin-top:12px;">
+          <scrollNotice></scrollNotice>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -25,11 +37,15 @@
 <script>
 import  inputBox  from "../../../components/inputBox.vue";
 import  mixBlendMode  from "../../../components/mix-blend-mode.vue";
+import  carousel  from "../../../components/carousel.vue";
+import  scrollNotice  from "../../../components/scrollNotice.vue";
 
 export default {
   components: {
     inputBox,
-    mixBlendMode
+    mixBlendMode,
+    carousel,
+    scrollNotice
   },
   setup(){
 
@@ -44,6 +60,6 @@ export default {
   font-size: 16px;
 }
 .first{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 </style>

@@ -5,7 +5,7 @@
       <input class="input-control input-outline" placeholder="账号" style="">
       <label class="input-label">账号</label>
     </div>
-    <div style="margin-left:8px;">
+    <!-- <div style="margin-left:8px;">
       <p>借助:placeholder-shown伪类就可以只用CSS实现这种效果。</p>
       <p>
         :placeholder-shown伪类是如何工作的？
@@ -21,7 +21,7 @@
           }
         </pre>
       </p>
-    </div>
+    </div> -->
   </div>
 </template>
 

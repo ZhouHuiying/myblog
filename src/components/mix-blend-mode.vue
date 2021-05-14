@@ -3,7 +3,7 @@
     <div class='blend'>
       <h1>2021加油 ！</h1>
     </div>
-    <div style="margin-left:8px;">
+    <!-- <div style="margin-left:8px;">
       <p>
         使用mix-blend-mode属性，不仅可以混合图片，还可以把元素的文本和边框与容器的背景图片混合在一起。
       </p>
@@ -20,7 +20,7 @@
       cover: 此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小;
       contain: 此时会保持图像的纵横比并将图像缩放成将适合背景定位区域的最大大小;
       </pre>
-    </div>
+    </div> -->
   </div>  
 </template>
 
