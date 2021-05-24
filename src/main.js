@@ -13,10 +13,10 @@ import './scss/common.scss';
 import './scss/theme.scss';
 import './scss/reset.css';
 import elementUI from 'element-ui';
-Vue.use(elementUI)
-// import  {genRouter}  from 'web-toolkit/src/case-main/router';
+import 'element-ui/lib/theme-chalk/index.css';
 
-// export const router = genRouter(routes);
+Vue.use(elementUI)
+
 
 Vue.config.productionTip = false
 

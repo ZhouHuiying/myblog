@@ -49,6 +49,13 @@ export default {
         intro: '通过Vue实现的一个简单的甘特图,以年为时间跨度；',
         date:'2021-03-04'
       },
+      {
+        id: 6,
+        name:'techArticle6',
+        title: '今天吃什么？(#^.^#)',
+        intro: '---study from cute 猪(#^.^#)',
+        date:'2021-05-24'
+      },
     ]);
     function jumpToDetail(name){
       this.$router.push(name)
