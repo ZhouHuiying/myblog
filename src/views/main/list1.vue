@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { ref,} from '@vue/composition-api';
+import { ref,onMounted} from '@vue/composition-api';
 
 export default {
   setup(){
@@ -38,9 +38,9 @@ export default {
       {
         id: 4,
         name:'techArticle4',
-        title: '几个CSS Demo！',
+        title: '几个CSS Demo — 1！',
         intro: '几个小的CSS Demo~',
-        date:'2021-03-02'
+        date:'2021-05-25'
       },
       {
         id: 5,
@@ -53,13 +53,16 @@ export default {
         id: 6,
         name:'techArticle6',
         title: '今天吃什么？(#^.^#)',
-        intro: '---study from cute 猪(#^.^#)',
+        intro: '---study from xiaozuzu(#^.^#)',
         date:'2021-05-24'
       },
     ]);
     function jumpToDetail(name){
       this.$router.push(name)
     }
+    onMounted(()=>{
+      tableData.value.sort((a,b)=> new Date(b.date)-new Date(a.date))
+    })
     return{ 
       tableData,jumpToDetail
     }

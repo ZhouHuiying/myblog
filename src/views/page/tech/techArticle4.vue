@@ -30,6 +30,12 @@
           <scrollNotice></scrollNotice>
         </div>
       </div>
+      <div class="first">
+        <div class="title">固定高度内轮播切换</div>
+        <div style="margin-top:12px;">
+          <carousel2></carousel2>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -39,13 +45,15 @@ import  inputBox  from "../../../components/inputBox.vue";
 import  mixBlendMode  from "../../../components/mix-blend-mode.vue";
 import  carousel  from "../../../components/carousel.vue";
 import  scrollNotice  from "../../../components/scrollNotice.vue";
+import  carousel2  from "../../../components/carousel2.vue";
 
 export default {
   components: {
     inputBox,
     mixBlendMode,
     carousel,
-    scrollNotice
+    scrollNotice,
+    carousel2,
   },
   setup(){
 
@@ -60,6 +68,6 @@ export default {
   font-size: 16px;
 }
 .first{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 </style>
