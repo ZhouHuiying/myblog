@@ -49,6 +49,11 @@ export default new router({
                     component: () =>import('../src/views/page/tech/techArticle6.vue'),
                 },
                 {
+                    path: '/techArticle7',
+                    name: 'techArticle7',
+                    component: () =>import('../src/views/page/tech/techArticle7.vue'),
+                },
+                {
                     path: '/lifeArticle1',
                     name: 'lifeArticle1',
                     component: () =>import('../src/views/page/life/lifeArticle1.vue'),

@@ -36,6 +36,12 @@
           <carousel2></carousel2>
         </div>
       </div>
+      <div class="first">
+        <div class="title">CSS实现多行文本展开收起</div>
+        <div style="margin-top:12px;">
+          <fold></fold>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -46,6 +52,7 @@ import  mixBlendMode  from "../../../components/mix-blend-mode.vue";
 import  carousel  from "../../../components/carousel.vue";
 import  scrollNotice  from "../../../components/scrollNotice.vue";
 import  carousel2  from "../../../components/carousel2.vue";
+import  fold  from "../../../components/fold.vue";
 
 export default {
   components: {
@@ -54,6 +61,7 @@ export default {
     carousel,
     scrollNotice,
     carousel2,
+    fold,
   },
   setup(){
 

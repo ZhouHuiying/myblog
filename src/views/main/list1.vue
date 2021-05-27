@@ -27,7 +27,7 @@ export default {
         title: '页面内跳转',
         intro: '页面内跳转',
         date:'2021-01-19'
-      },
+      }, 
       {
         id: 3,
         name:'techArticle3',
@@ -40,7 +40,7 @@ export default {
         name:'techArticle4',
         title: '几个CSS Demo — 1！',
         intro: '几个小的CSS Demo~',
-        date:'2021-05-25'
+        date:'2021-05-27'
       },
       {
         id: 5,
@@ -55,6 +55,13 @@ export default {
         title: '今天吃什么？(#^.^#)',
         intro: '---study from xiaozuzu(#^.^#)',
         date:'2021-05-24'
+      },
+      {
+        id: 7,
+        name:'techArticle7',
+        title: '几个CSS Demo — 2！',
+        intro: '几个小的CSS Demo~',
+        date:'2021-05-28'
       },
     ]);
     function jumpToDetail(name){
